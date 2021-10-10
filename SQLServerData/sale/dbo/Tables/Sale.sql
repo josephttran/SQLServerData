@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[Sale]
+(
+	[ID] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Month] NCHAR(9) NOT NULL, 
+    [Amount] INT NULL
+)
