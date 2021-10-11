@@ -61,9 +61,12 @@
     <Folder Include="sale\dbo\Tables" />
     <Folder Include="PublishProfile" />
     <Folder Include="PostDeploymentScript" />
+    <Folder Include="Stored Procedures" />
+    <Folder Include="View" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="sale\dbo\tables\Sale.sql" />
+    <Build Include="Stored Procedures\usp_SalePivotMonthSumAmount.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLServerData.refactorlog" />
