@@ -67,6 +67,7 @@
   <ItemGroup>
     <Build Include="sale\dbo\tables\Sale.sql" />
     <Build Include="Stored Procedures\usp_SalePivotMonthSumAmount.sql" />
+    <Build Include="View\SaleByQuarter.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="SQLServerData.refactorlog" />
